@@ -1,0 +1,8 @@
+name: My_First_Pipeline
+on: push
+jobs: 
+    First:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: "first"
+              run: echo "Done! "
