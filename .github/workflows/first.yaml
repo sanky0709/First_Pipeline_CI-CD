@@ -6,3 +6,8 @@ jobs:
         steps: 
             - name: "first"
               run: echo "Done! "
+            - name: "Basic Linux Commands"
+              run: |
+                 whoami
+                 sleep 30
+                 echo "System Stop"
